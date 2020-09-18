@@ -1,6 +1,6 @@
 # 3Scale Swagger Converter
 
-When you want to use a Swagger file on 3Scale, you need to adjust some internal parameters of your swagger in order to work seamlessly. This Quarkus project help you to do that. It basically: 
+When you want to use a Swagger (OpenAPI) file on 3Scale, you need to adjust some internal parameters of your swagger in order to work seamlessly with this API platform. This Quarkus project helps you to do that. It basically: 
 
 * Make sure you have only https as the scheme
 * Change the `host` field to the 3scale gateway
