@@ -20,7 +20,7 @@ Clone this project, change your folder and run the quarkus app:
 ./mvnw compile quarkus:dev
 ```
 
-Now call the quarkus API passing the specific parameters:
+Now call the quarkus API providing the specific parameters:
 
 ```bash
 curl http://127.0.0.1:8080/converter?urlSwagger=https://myapi-server/service/rest/v2/api-docs&hostThreeScale=my-3scale-gateway-staging.apps.openshift.customer.com.br&pretty=false
